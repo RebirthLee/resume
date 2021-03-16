@@ -8,14 +8,14 @@
 * 취미 : 게임, 카페코딩, 스터디, 세미나 참가.
 * [자기소개서](./ABOUT_ME.md)
 
-기술적 트렌드를 항시 체크하는 습관, 항상 코드에 대한 의심 더 나은 방법을 끊임 없이 생각하며,
+기술적 트렌드를 항시 체크하는 습관, 항상 코드에 대한 의심 더 나은 방법을 끊임 없이 생각, 스마트하게 일하기 위한 게으름.
 
 ## **Skill Stack**
 ### Backend 
-- **Go**
+- **Go (중상)**
   - **RESTful API** : Echo Framework를 이용하여 클라이언트에서 필요한 데이터를 위해 RESTful API 개발.
   - Socket Server : IoT 장비의 원격 및 신호 데이터 통신에 대한 TCP 소켓 프로그램 유지보수 및 추가 기능 개발.
-- **Docker**
+- **Docker, Docker Compose**
   - Go 애플리케이션 배포.
 - Java
   - Tomcat : Spring Framework로 구축된 레거시 API 유지보수, 추가 기능에 대한 개발.
@@ -29,30 +29,37 @@
   - 인증 값 저장(문자인증키, 계정 인증 Token Key).
 
 ### Frontend
-- **Android**
+- **Android (중하)**
   - **Java**, Kotlin : 추가기능 및 새로운 코드에 대한 것들은 코틀린으로 개발.
   - **NDK, JNI** : DVR회사에서 제공된 Shared Library를 가지고 실시간 영상 스트리밍에 대한 기능 개발.
     - C++ : JNI를 이용하여 클래스 인스턴스마다 Hashcode를 가지고 Map으로 관리.
-  - Used Libraries
-    - RxJava2
-    - Dagger2
-    - AAC(ViewModel, Room, LifeCycle)
+  - Used
+    - ~~RxJava2~~ -> Coroutine
+    - ~~Dagger2~~ -> Dagger Hilt
+    - AAC(ViewModel, Room, LifeCycle, )
     - Retrofit2
     - Timber
     - Glide
     - Picasso
-    - Otto
+    - ~~Otto~~
     - Gson
     - Databinding
-    - KotlinExtension
-- **iOS**
-  - **Swift**
-  - Used Libraries
-    - RxSwift
-    - RxCocoa
-    - RxAlamofire
-- **ReactJS**
-  - 훅스와 클래스를 섞어서 사용했으며 회사 내부용 툴을 위해 개발.
+    - ~~KotlinExtension~~
+    - Multi Module
+    - Custom View
+- ~~**iOS (1년이상 손놓음)**~~
+  - ~~**Swift**~~
+  - ~~Used~~
+    - ~~RxSwift~~
+    - ~~RxCocoa~~
+    - ~~RxAlamofire~~
+- ReactJS (하)
+  - 관리자 툴 초기 작업.
+  - Used
+    - Context API
+    - Typescript
+    - Styled Component
+    - axios
 
 
 ### Others
@@ -70,19 +77,21 @@
   - MS Teams
 - Git Repository
   - Github
+  - Self Hosted(Gogs, Gitea)
 - Version Control
   - Git
   - GitFlow : 빡빡한 규칙보단 깃플로우의 모델링을 참고하여 브랜치를 나눠서 작업.
+  - ~~SVN~~
 
 ### Todo
-- **Docker Compose**
 - **Docker Swarm**
-- **Kubernetes**
+- **k8s**
+- 
 
 ### Interest
 - **오픈소스 기여**
 - **AWS, 클라우드 인프라**
-- **DevOps**
+- **DevOps,IaC**
 - **CI/CD**
 - TensorFlow
 - UI/UX Design
@@ -90,7 +99,9 @@
 ## 회사경력
 |근무기간|회사명|업무|
 |-|-|-|
-|2018.6 ~ 재직중|[유비스마트](http://ubsmart.kr/)|Backend/DB, iOS, Android|
+|2020.1 ~ 재직중|[스타트업]|Backend, Infra, Android|
+|2019.10 ~ 2020.1|[스타트업-법인전환]|Backend, Infra, Android|
+|2018.6 ~ 2019.10|[유비스마트](http://ubsmart.kr/)|Backend/DB, iOS, Android|
 |2014.12 ~ 2016.6|[담덕글로벌](http://damduk.co.kr/)|Firmware, Android|
 |2014.10 ~ 2014.12|[에이엔티홀딩스](http://www.ant-holdings.com/)|Android Developer(Intern)|
 
@@ -113,6 +124,8 @@
 |2014.11|수상내역/공모전|학과목우수상(웹프로그래밍)|안산공업고등학교|-|
 |2015.01|수상내역/공모전|2014학년도 12월 교내모범학생(역경극복상)|안산공업고등학교|-|
 |2015.02|수상내역/공모전|3년 개근상|안산공업고등학교|-|
+
+## 대외활동
 
 ## 프로젝트
 
