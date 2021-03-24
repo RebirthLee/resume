@@ -19,6 +19,7 @@
   - Go 애플리케이션 배포.
 - Java
   - Tomcat : Spring Framework로 구축된 레거시 API 유지보수, 추가 기능에 대한 개발.
+  - Spring boot, JPA : 간단한 Restful API 구축 가능.
 
 ### Data Store
 - **MariaDB(MySQL)**
@@ -86,7 +87,6 @@
 ### Todo
 - **Docker Swarm**
 - **k8s**
-- 
 
 ### Interest
 - **오픈소스 기여**
