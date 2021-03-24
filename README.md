@@ -17,7 +17,7 @@
   - Socket Server : IoT 장비의 원격 및 신호 데이터 통신에 대한 TCP 소켓 프로그램 유지보수 및 추가 기능 개발.
 - **Docker, Docker Compose**
   - Go 애플리케이션 배포.
-- Java
+- Java(kotlin)
   - Tomcat : Spring Framework로 구축된 레거시 API 유지보수, 추가 기능에 대한 개발.
   - Spring boot, JPA : 간단한 Restful API 구축 가능.
 
